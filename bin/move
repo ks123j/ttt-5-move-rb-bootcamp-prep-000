@@ -14,7 +14,6 @@ puts "Where would you like to go?"
 
 input = gets.strip
 
-
 index = gets.strip
 index = input_to_index(input)
 
