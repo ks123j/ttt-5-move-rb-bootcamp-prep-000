@@ -11,9 +11,11 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index - get_variable_from_file("./lib/move", "index")
 input = gets.strip
 
 input_to_index(input)
+
 
 move(board, index, character = "X")
 
